@@ -5,7 +5,6 @@ header {
   padding: 95px;
 }
 
-
 .header__links-list {
   display: flex;
   flex-direction: row;
@@ -156,6 +155,8 @@ address {
   min-height: 596px;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -205,11 +206,6 @@ address {
   background-image: url(../images/card-lot-03.jpg);
   background-position: center;
   background-size: cover;
-}
-
-.lots_card-list-item {
-  display: flex;
-  flex-direction: column;
 }
 
 .card__text {
