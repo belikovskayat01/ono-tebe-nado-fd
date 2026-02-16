@@ -16,15 +16,12 @@
 
 .header__links-list-item {
   font-size: 18px;
+  text-decoration: underline;
 }
 
 .no-marker {
   list-style: none;
-}
-
-.underline {
-  border-bottom: 1px solid black;
-  padding-bottom: 1px;
+  text-decoration: none;
 }
 
 .header__logo{
@@ -37,10 +34,13 @@
   height: 104px;
 }
 
-.header__address {
+.address{
   display: flex;
   flex-direction: column;
   font-size: 18px;
+}
+
+.address-info {
   padding-top: 95px;
   padding-bottom: 100px;
   justify-self: end;
@@ -224,6 +224,7 @@
 .lots__look-more-link {
   padding-left: 40px;
   font-size: 20px;
+  text-decoration: underline;
 }
 
 .about {
@@ -286,14 +287,12 @@ footer {
   margin-bottom: 82px;
 }
 
-.footer-address {
-  display: flex;
-  flex-direction: column;
+.contact-info{
   justify-content: left;
   max-width: 265px;
   margin-left: 50px;
-  font-size: 18px;
 }
+
 
 .footer__menu-list,
 .footer__menu-list-item,
@@ -309,6 +308,10 @@ footer {
 
 .footer__menu-list-item {
   font-size: 18px;
+} 
+
+.footer__menu-link{
+  text-decoration: underline;
 }
 
 .no-underline {

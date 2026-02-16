@@ -13,20 +13,24 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item no-marker">главная</li>
-          <li class="header__links-list-item underline">посмотреть лоты</li>
-          <li class="header__links-list-item underline">об аукционе</li>
+          <li class="header__links-list-item no-marker">
+            <a href="">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <a class="header__logo">
         <img src="images/logo-black.svg" class="header__logo-image" alt="Логотип черно-белый">
       </a>
-      <address>
-        <div class="header__address">
+      <address class="address address-info">
            <a href="tel:+99995555555" class="address__item">+9 999 555 5555</a>
            <a href="mailto:info@sobaka.ge" class="address__item">info@sobaka.ge</a>
-          <p class="address-text">наб. Принсенграхт 263 - 265, Амстердам</p>
-        </div>
+           <p class="address-text">наб. Принсенграхт 263 - 265, Амстердам</p>
       </address>
     </header>
     <main>
@@ -43,17 +47,17 @@
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил</p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h1 class="lots__heading">Лоты</h1>
+        <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots_card-list-item">
             <a href="" class="card-link">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2>
+                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                 </p>
@@ -64,9 +68,9 @@
             <a href="" class="card-link">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h4 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h4>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
                 </p>
@@ -77,9 +81,9 @@
             <a href="" class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h5 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h5>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
                 </p>
@@ -96,7 +100,7 @@
             </div>
         </div>
         <div class="about__column about__column-content">
-          <h1 class="about__title">Об аукционе</h1>
+          <h6 class="about__title">Об аукционе</h6>
           <div class="about__text">
             <p class="about__text-paragraph">
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
@@ -110,12 +114,10 @@
       </section>
     </main>
     <footer>
-      <address>
-        <div class="footer-address">
+      <address class="address contact-info">
           <a href="tel:+99995555555" class="address__item">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge" class="address__item">info@sobaka.ge</a>
           <p class="address-text">наб. Принсенграхт 263 - 265, Амстердам</p>
-        </div>
       </address>
       <nav class="footer-menu">
         <ul class="footer__menu-list">
@@ -138,16 +140,19 @@
       </nav>
       <ul class="footer__social-list">
         <li class=" footer__social-list-item">
-          <a href="" class="footer__social-link"></a>
-          <img src="images/yt.svg"  class="footer__social-icon" alt="Иконка YouTube">
+          <a href="" class="footer__social-link">
+            <img src="images/yt.svg"  class="footer__social-icon" alt="Иконка YouTube">
+          </a>
         </li>
         <li class=" footer__social-list-item">
-          <a href="" class="footer__social-link"></a>
-          <img src="images/vk.svg"  class="footer__social-icon" alt="Иконка Вконтакте">
+          <a href="" class="footer__social-link">
+            <img src="images/vk.svg"  class="footer__social-icon" alt="Иконка Вконтакте">
+          </a>
         </li>
         <li class=" footer__social-list-item">
-          <a href="" class="footer__social-link"></a>
-          <img src="images/pinterest.svg"  class="footer__social-icon" alt="Иконка Pinterest">
+          <a href="" class="footer__social-link">
+            <img src="images/pinterest.svg"  class="footer__social-icon" alt="Иконка Pinterest">
+          </a>
         </li>
       </ul>
     </footer>
